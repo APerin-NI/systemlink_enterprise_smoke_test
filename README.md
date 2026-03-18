@@ -123,6 +123,8 @@ Workspace : MY_WORKSPACE  (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)
   [PASS]   Specs · service info                        HTTP 200
   [PASS]   Notebooks · query                           HTTP 200
   [PASS]   Feeds · list                                HTTP 200
+  [PASS]   DynamicFormFields · list fields             HTTP 200
+  [PASS]   Comments · service info                     HTTP 200
   ────────────────────────────────────────────────────────────────────
   CRUD LIFECYCLE TESTS  (create → query → delete)
   [PASS]   Assets · create                             HTTP 200
@@ -147,7 +149,7 @@ Workspace : MY_WORKSPACE  (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)
   [PASS]   Systems · summary                           HTTP 200
   [PASS]   Systems · delete virtual                    HTTP 200
 ────────────────────────────────────────────────────────────────────────
-  34/34 passed  ✓ all passed
+  36/36 passed  ✓ all passed
 Results written to: results.json
 ```
 
@@ -171,6 +173,8 @@ Results written to: results.json
 | Specifications | `GET /nispec/v1` — service capabilities |
 | Notebooks | `POST /ninotebook/v1/notebook/query` |
 | Feeds | `GET /nifeed/v1/feeds` |
+| Dynamic Form Fields | `GET /nidynamicformfields/v1/fields` |
+| Comments | `GET /nicomments/v1` — service capabilities |
 
 ### CRUD lifecycle tests
 

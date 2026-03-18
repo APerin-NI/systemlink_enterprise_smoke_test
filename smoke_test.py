@@ -214,6 +214,12 @@ class SmokeTest:
         # ── Feeds ─────────────────────────────────────────────────────────────
         self.get("Feeds · list",                    "/nifeed/v1/feeds")
 
+        # ── Dynamic Form Fields ───────────────────────────────────────────────
+        self.get("DynamicFormFields · list fields", "/nidynamicformfields/v1/fields")
+
+        # ── Comments ──────────────────────────────────────────────────────────
+        self.get("Comments · service info",         "/nicomments/v1")
+
         self._section("CRUD LIFECYCLE TESTS  (create → query → delete)")
         self._crud_assets()
         self._crud_tags()

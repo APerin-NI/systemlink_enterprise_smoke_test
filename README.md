@@ -9,7 +9,7 @@ All artifacts created during CRUD tests are automatically deleted before the scr
 ## Requirements
 
 - Python 3.10+
-- [`slcli`](https://github.com/ni/slcli) installed and at least one profile configured
+- [`slcli`](https://github.com/ni-kismet/systemlink-cli) installed and at least one profile configured
 - `requests` Python package (`pip install requests`)
 
 ---

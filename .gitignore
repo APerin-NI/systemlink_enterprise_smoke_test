@@ -1,0 +1,10 @@
+# Output files from smoke test runs
+results*.json
+results*.txt
+*.json
+*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/

@@ -2,7 +2,7 @@
 
 A lightweight CLI script that verifies connectivity and basic health of a SystemLink Enterprise server by running read-only checks and create → query → delete lifecycle tests across key services.
 
-All artifacts created during CRUD tests are automatically deleted before the script exits — the server is left clean regardless of the outcome.
+All artifacts created during CRUD tests are automatically deleted before the script exits — the server is left clean regardless of the outcome. It is recommended to run the Smoke Test in a dedicated workspace.
 
 ---
 
